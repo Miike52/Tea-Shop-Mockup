@@ -1,3 +1,6 @@
+
+![SITE LOGO](https://github.com/user-attachments/assets/21640f3d-728b-4697-9f26-347b257ff54e)
+
 # Tea-Shop-Mockup
 
 Mockup (preview) of a tea shop website (in Polish language), created by using HTML / CSS / JavaScript. Made by me long ago during my classes.
