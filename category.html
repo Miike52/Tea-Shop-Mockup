@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pl">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camellia Tea Shop</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header class="header">
+   
+    <a href="#" class="logo">
+        <img src="images/Camellia-Tea-Shop-LOGO2.jpg" alt="Camellia Tea Shop Logo">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Strona Główna</a>
+        <a href="#o-nas">O nas</a>
+        <a href="#menu">Menu</a>
+        <a href="#produkty">Produkty</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-button"></div>
+        <div class="fas fa-shopping-cart" id="cart-button"></div>
+        <div class="fas fa-bars" id="menu-button"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Znajdź produkt..." >
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+       <div class="cart-item">
+           <span class="fas fa-times"></span>
+           <img src="images/EARL-GREY.png" alt="">
+           <div class="content">
+               <h3>Produkt 1</h3>
+               <div class="price">49.99PLN </div>
+           </div>
+       </div>
+       <div class="cart-item">
+           <span class="fas fa-times"></span>
+           <img src="images/PROTOTYPE-PRODUCT-1.JPG" alt="">
+           <div class="content">
+               <h3>Produkt 2</h3>
+               <div class="price">49.99PLN </div>
+           </div>
+       </div>
+       <div class="cart-item">
+           <span class="fas fa-times"></span>
+           <img src="images/PROTOTYPE-PRODUCT-1.JPG" alt="">
+           <div class="content">
+               <h3>Produkt 3</h3>
+               <div class="price">49.99PLN </div>
+           </div>
+       </div>
+       <div class="cart-item">
+           <span class="fas fa-times"></span>
+           <img src="images/PROTOTYPE-PRODUCT-1.JPG" alt="">
+           <div class="content">
+               <h3>Produkt 4</h3>
+               <div class="price">49.99PLN </div>
+           </div>
+       </div>
+       
+       <a href="#" class="checkout-button">Zrealizuj Zamówienie</a>
+    </div>
+
+
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- home category menu section starts -->
+
+<section class="home-category" id="home-category">
+
+    <ul class="breadcrumb">
+        <li><a href="#home">Strona Główna</a></li>
+        <li><a href="#home">Menu</a></li>
+        <li><a href="#home">Kategorie</a></li>
+        <li>Herbaty Zielone</li>
+    </ul>
+
+    <div class="content">
+        <h1 class="heading">HERBATY <span>ZIELONE</span></h1>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Sortowanie</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Od najtańszych</option>
+                <option>Od najdroższych</option>
+                <option>Od najnowszych</option>
+                <option>Po opiniach klientów</option>
+            </select>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/TEA-SHOP-ZIELONA-HERBATA.jpg" alt="">
+            <h3>Zielona Herbata</h3>
+            <div class="cena">49.99PLN <span>69.99</span></div>
+            <a href="#" class="button">Dodaj Do Koszyka</a>
+        </div>
+
+        <div class="box">
+            <img src="images/TEA-SHOP-ZIELONA-HERBATA.jpg" alt="">
+            <h3>Zielona Herbata</h3>
+            <div class="cena">49.99PLN <span>69.99</span></div>
+            <a href="#" class="button">Dodaj Do Koszyka</a>
+        </div>
+
+        <div class="box">
+            <img src="images/TEA-SHOP-ZIELONA-HERBATA.jpg" alt="">
+            <h3>Zielona Herbata</h3>
+            <div class="cena">49.99PLN <span>69.99</span></div>
+            <a href="#" class="button">Dodaj Do Koszyka</a>
+        </div>
+
+        <div class="box">
+            <img src="images/PROTOTYPE-PRODUCT-1.JPG" alt="">
+            <h3>Zielona Herbata</h3>
+            <div class="cena">49.99PLN <span>69.99</span></div>
+            <a href="#" class="button">Dodaj Do Koszyka</a>
+        </div>
+
+        <div class="box">
+            <img src="images/PROTOTYPE-PRODUCT-1.JPG" alt="">
+            <h3>Zielona Herbata</h3>
+            <div class="cena">49.99PLN <span>69.99</span></div>
+            <a href="#" class="button">Dodaj Do Koszyka</a>
+        </div>
+
+        <div class="box">
+            <img src="images/PROTOTYPE-PRODUCT-1.JPG" alt="">
+            <h3>Zielona Herbata</h3>
+            <div class="cena">49.99PLN <span>69.99</span></div>
+            <a href="#" class="button">Dodaj Do Koszyka</a>
+        </div>
+
+
+
+    </div>
+    <nav aria-label="pagination">
+        <ul class="pagination">
+            <li><a href=""><span aria-hidden="true">«</span><span class="visuallyhidden">previous set of pages</span></a></li>
+            <li><a href="" aria-current="page" ><span class="visuallyhidden">page</span>1</a></li>
+            <li><a href=""><span class="visuallyhidden">page</span>2</a></li>
+            <li><a href=""><span class="visuallyhidden">page</span>3</a></li>
+            <li><a href=""><span class="visuallyhidden">page</span>4</a></li>
+            <li><a href=""><span class="visuallyhidden">next set of pages</span><span aria-hidden="true">»</span></a></li>
+        </ul>
+    </nav>
+        
+</section>
+
+<!-- home category menu section ends -->
+
+<!-- contact section starts -->
+
+<section class="kontakt" id="kontakt">
+    <h1 class="heading"> <span>SKONTAKTUJ</span> SIĘ </h1> 
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2323.7607535556376!2d18.60487885156394!3d54.37887660447209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd737419cd2841%3A0xba0daf08fce83755!2sTEB%20Edukacja!5e0!3m2!1spl!2spl!4v1644197444616!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>Masz pytanie? Odpowiemy w przeciągu 24 godzin!</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Imię">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="E-Mail">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="phone" placeholder="Telefon">
+            </div>
+
+            <input class="button" type="submit" value="Zostaw wiadomość">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="links">
+        <a href="#home">Strona Główna</a>
+        <a href="#o-nas">O nas</a>
+        <a href="#menu">Menu</a>
+        <a href="#produkty">Produkty</a>
+        <a href="#kontakt">Kontakt</a>
+    </div>
+
+    <div class="credit">Stworzone przez: <span>Michał Pochwatka </span> | Wszystkie prawa (nie) zastrzeżone </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- skrypt do javy -->
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
